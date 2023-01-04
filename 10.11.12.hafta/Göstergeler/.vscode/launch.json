@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/abdusalam/Documents/C:C++/10.11.12.hafta/Göstergeler",
+      "program": "/Users/abdusalam/Documents/C:C++/10.11.12.hafta/Göstergeler/build/Debug/outDebug"
+    }
+  ]
+}

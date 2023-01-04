@@ -1,0 +1,4 @@
+ali: 83
+Aysu: 98
+ahmet: 96
+ayse: 91
