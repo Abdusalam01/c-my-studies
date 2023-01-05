@@ -1,0 +1,1 @@
+int *dizi=(int *)malloc(sayi*sizeof(int));

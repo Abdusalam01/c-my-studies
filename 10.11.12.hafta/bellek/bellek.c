@@ -54,9 +54,16 @@ int main()
     printf("toplam= %d \n",toplam);
 
     printf("dizi[0]= %d \n",dizi[0]);
-    free(&dizi[0]); // dizi[0]'ın içindeki elemanı temizle.
+    free(&(*dizi[0])); // dizi[0]'ın içindeki elemanı temizle.
 
-    printf("\ntemizlendikten sonraki dizi[0]= %d ",dizi[0]);
+    printf("\ntemizlendikten sonraki dizi[0]= %d \n",dizi[0]);
+    printf("Dizi elemanlari: \n");
+
+    for (int i = 0; i < sayi + ekistira; i++)
+    {
+        printf("dizi[%d] : %d\n",i,*(dizi + i));
+    }
+    
 
 
 
