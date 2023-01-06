@@ -22,7 +22,7 @@ int main()
         printf("dosya olustu...");
     }
 
-    fprintf(fp," %d ",2015); //fp dosyasına karakter yazmamızı sağlıyor
+    fprintf(fp," %d ",2023); //fp dosyasına karakter yazmamızı sağlıyor
     fclose(fp);
     
     return 0;

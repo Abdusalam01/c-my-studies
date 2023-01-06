@@ -1,0 +1,25 @@
+					---------------- HASTALARIN BILGILERI ----------------
+Hasta_No: 203102
+Hasta_Adi: Hamza
+Hasta_Soyadi: Duman
+Hasta_Cinsiyeti: Erkek
+Hasta_Yasi: 21
+Hasta_Boyu: 1.82
+
+----------------------------------
+Hasta_No: 219972
+Hasta_Adi: Melek
+Hasta_Soyadi: Bektas
+Hasta_Cinsiyeti: Kadin
+Hasta_Yasi: 19
+Hasta_Boyu: 1.71
+
+----------------------------------
+Hasta_No: 190853
+Hasta_Adi: Berk
+Hasta_Soyadi: Yilmaz
+Hasta_Cinsiyeti: Erkek
+Hasta_Yasi: 32
+Hasta_Boyu: 1.75
+
+----------------------------------
