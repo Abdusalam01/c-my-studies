@@ -5,16 +5,16 @@
 int main(){
     /*--------------------- Dosyada harf arama ve kaç tane olduğunu bulma. ----------------------*/
     FILE *dosya1;
-    if ((dosya1 = fopen("Kactane_harf.txt","w")) == NULL) // kactane_harf adinda ve yazma(w) modunda bir dosya olustur. 
-    {                                                     // dosyanin olusup olusmadigini kontrol et.
+    if ((dosya1 = fopen("Kactane_harf.txt","w")) == NULL)           // kactane_harf adinda ve yazma(w) modunda bir dosya olustur. 
+    {                                                               // dosyanin olusup olusmadigini kontrol et.
         printf("Kactane_harf.txt Dosyasi Acilamadi...!!!");
         exit(1);
     }
     fprintf(dosya1,"Bursa Teknik Universitesi Bilgisayar Muhendisligi Bolumu");     // Olusturulan txt dosyasina yaz
     fclose(dosya1);     // dosyayi kapat
 
-    if ((dosya1 = fopen("Kactane_harf.txt","r+")) == NULL) // txt dosyasini okuma ve yazma(r veya r+) modunda ac.
-    {                                                      // ve dosyanin acilip acilmadigini kontrol et.
+    if ((dosya1 = fopen("Kactane_harf.txt","r+")) == NULL)          // txt dosyasini okuma ve yazma(r veya r+) modunda ac.
+    {                                                               // ve dosyanin acilip acilmadigini kontrol et.
         printf("Kactane_harf.txt Dosyasi Acilamadi...!!!");
         exit(1);
     }
