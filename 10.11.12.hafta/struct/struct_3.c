@@ -4,10 +4,7 @@ typedef struct kapsul
 {
     char veri;
     struct  kapsul *ptr;
-    
 }dugum;
-
-
 
 int main()
 {
@@ -22,9 +19,9 @@ int main()
 
     printf("A veri : %c, B veri: %c, C veri: %c\n",A.veri,B.veri,C.veri);
     
-    printf("A adres : %p, B adres: %p, C adres: %p\n", &A , &B , &C );
+    printf("A adres: %p, B adres: %p, C adres: %p\n", &A , &B , &C );
 
-    printf("A.ptr: %p, B.ptr: %p, C.ptr: %p\n",A.ptr,B.ptr,C.ptr);
+    printf("A.ptr: %p, B.ptr: %p, C.ptr: %p\n\n",A.ptr,B.ptr,C.ptr);
 
     printf("A nin 1 otesindeki veri: %c\n",  (*(A.ptr)).veri  );
     
