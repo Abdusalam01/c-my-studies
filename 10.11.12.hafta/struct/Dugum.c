@@ -52,20 +52,5 @@ int main(){
     //Ahmetin uzerinden Mert'tin bilgilerine ulasmak
     printf("Ahmet'in iki otesindeki ogrencinin bilgileri --> Ad: %s\tSoyad: %s\tYas: %d\n",ahmet.ptr->ptr->ad, ahmet.ptr->ptr->soyad, ahmet.ptr->ptr->yas);
 
-
-
-
-
-
-
-    /*Dugum A,B;
-    A.veri = 'A';
-    B.veri = 'B';
-
-    A.ptr = &B;
-    B.ptr = NULL;
-
-    printf("%c\n",A.ptr->veri);*/
-
     return 0;
 }
