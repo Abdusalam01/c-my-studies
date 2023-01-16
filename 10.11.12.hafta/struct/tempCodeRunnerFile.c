@@ -1,1 +1,1 @@
-    /*
+strlen(dizi)
