@@ -8,7 +8,7 @@ typedef struct Dugum
     char soyad[20];
     int yas;
     struct Dugum *ptr;
-}Ogrenci;
+} Ogrenci;
 
 int main(){
     Ogrenci ahmet,ferit,mert;
