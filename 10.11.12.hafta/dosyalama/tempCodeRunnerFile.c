@@ -1,0 +1,1 @@
+dosya = fopen("Ogrenci_kaydi.txt","w")

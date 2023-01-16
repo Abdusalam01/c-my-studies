@@ -1,0 +1,37 @@
+-------------- OGRENCI KAYITLARI -------------
+
+***** Ogrenici Bilgileri ***** 
+
+1. Numarali Ogrenci bilgilerini: 
+Ad      : Kamile
+Vize    : 90
+Final   : 100
+------------------*----------------- 
+
+2. Numarali Ogrenci bilgilerini: 
+Ad      : Selam
+Vize    : 70
+Final   : 57
+------------------*----------------- 
+
+3. Numarali Ogrenci bilgilerini: 
+Ad      : Turan
+Vize    : 88
+Final   : 75
+------------------*----------------- 
+
+
+
+SINIFIN ORTALAMASI --> 79
+------------------*-----------------
+
+
+
+Sinifin En Basarili Ogrenci bilgileri :
+Numara      : 1
+Ad          : Kamile
+Ortalama    : 96
+------------------*-----------------
+
+
+
