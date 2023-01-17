@@ -13,20 +13,19 @@ typedef struct
 
 int main(){
     ogrenci burak;
-    strcmp("burak",burak.ad);
-    strcmp("erol",burak.soyad);
+    strcpy(burak.ad,"Burak");
+    strcpy(burak.soyad,"Erol");
     burak.boy = 1.70;
-    burak.yas = 22;
+    burak.yas = 24;
 
     FILE *fprt;
     fprt = fopen("Ornek7.txt","w");
     if (fprt == NULL)
-    {
         printf("Ornek7.txt Dosyasi Acilamadi...!!!");
-        exit(1);
-    }
-    fwrite (&burak,sizeof(ogrenci),1,fprt);
+    fprintf(fprt,"Ad: %s\tSoyat: %s\tYas: %d\tBoy: %.2f\n",burak.ad,burak.soyad,burak.yas,burak.boy);
 
     fclose(fprt);
+
+
     return 0;
 }

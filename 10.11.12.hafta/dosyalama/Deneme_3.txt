@@ -1,0 +1,5 @@
+1	Cansu	Tip
+2	Ahmet	Matematik
+3	Aysel	Dis
+4	mert	Insaat
+5	Yusuf	Mimar

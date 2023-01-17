@@ -19,7 +19,8 @@ int main(){
         if (x == 'X')
         {
             fseek(dosya1,-1,SEEK_CUR);
-            fputc('A',dosya1);  break;
+            fputc('A',dosya1);  
+            break;
         } 
     }
     fclose(dosya1);
